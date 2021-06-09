@@ -72,7 +72,7 @@
     <!-- ===============================================-->
     <main class="main" id="top">
       <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-light opacity-85"
+        class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-light opacity-1"
         data-navbar-on-scroll="data-navbar-on-scroll"
       >
         <div class="container">
@@ -139,7 +139,7 @@
         </div>
       </nav>
       <section class="py-0" id="header">
-        <div
+        <!-- <div
           class="bg-holder d-none d-md-block"
           style="
             background-image: url(assets/img/illustrations/hero-header2.png);
@@ -150,18 +150,18 @@
           "
         ></div>
         <!--/.bg-holder-->
-        <div
+        <!-- <div
           class="bg-holder d-md-none"
           style="
             background-image: url(assets/img/illustrations/hero-bg.png);
             background-position: right top;
             background-size: contain;
           "
-        ></div>
+        ></div> -->
         <!--/.bg-holder-->
-        <div class="container">
-            <div class="row align-items-center min-vh-75 min-vh-lg-100">
-            <h1>Software Questions Page</h1>
+        <div class="container" style="padding-bottom:0;margin-bottom:0;">
+            <div class="row align-items-center min-vh-50 min-vh-lg-50" style="padding-bottom:0;margin-bottom:0;">
+            <h1 style="padding-bottom:0;margin-bottom:0;">Software Questions Page</h1>
             </div>
 
       <!-- ============================================-->
@@ -190,7 +190,7 @@
 
 
 
-      <section>
+      <section style="padding-top:0;margin-top:0;">
 
 
 
@@ -200,13 +200,13 @@
         
 
 
-        <table class="table">
+        <table class="table" style="padding-top:0;margin-top:0;">
           <thead>
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
+              <th scope="col"></th>
+              <th scope="col">FlipTheSwitch Common Software Solutions</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>
@@ -220,7 +220,7 @@
               
         <td>  <div class="card-body">
                 <h5 class="card-title"> Why is my operating system not functioning properly?</h5>
-                <a href="#" class="btn btn-primary">Solution</a>
+                <p href="#" class="btn-primary">Solution</p>
                 <p class="card-text">If the operating system or other software is either unresponsive or is acting up,
                    then try restarting your computer and run a virus scan. 
                    To avoid having this happen, install reliable anti-virus software.</p>
@@ -233,7 +233,7 @@
 
           <td>  <div class="card-body">
                   <h5 class="card-title">Why is my internet slow?</h5>
-                  <a href="#" class="btn btn-primary">Solution</a>
+                  <p href="#" class="btn-primary">Solution</p>
                   <p class="card-text">To improve your Internet browser performance, you need to clear cookies and Internet temporary files frequently. In the Windows search bar, type ‘%temp%’
                                       and hit enter to open the temporary files folder.</p>
               </div>
@@ -244,7 +244,7 @@
 
         <td>  <div class="card-body">
                 <h5 class="card-title">Why won’t Windows boot up?</h5>
-                <a href="#" class="btn btn-primary">Solution</a>
+                <p href="#" class="btn-primary">Solution</p>
                 <p class="card-text"> If you are having troubles booting Windows, then you may have to reinstall 
                                      it with the Windows recovery disk.</p>
                 </div>
@@ -268,7 +268,7 @@
 
           <td>  <div class="card-body">
                   <h5 class="card-title"> My internet connection keeps dropping.</h5>
-                  <a href="#" class="btn btn-primary">Solution</a>
+                  <p href="#" class="btn-primary">Solution</p>
                   <p class="card-text">  Dropped Internet connections can be very frustrating. Often the problem 
                                         is simple and may be caused by a bad cable or
                                         phone line, which is easy to fix. More serious problems include
@@ -286,7 +286,7 @@
               
           <td>  <div class="card-body">
                   <h5 class="card-title">My Windows won’t update.</h5>
-                  <a href="#" class="btn btn-primary">Solution</a>
+                  <p href="#" class="btn-primary">Solution</p>
                   <p class="card-text"> Windows update errors can occur due to a bunch of reasons. Causes include Windows piracy, 
                                         core files missing, license issues, etc.
 
@@ -302,7 +302,7 @@
             
         <td>  <div class="card-body">
                 <h5 class="card-title">Why is my computer so slow?</h5>
-                <a href="#" class="btn btn-primary">Solution</a>
+                <p href="#" class="btn-primary">Solution</p>
                 <p class="card-text">  If your computer hasn’t been turned off in a while, rebooting it should make it perform faster again. 
 
                                         There might not be enough memory on the machine, try deleting unneeded files and applications to free up space.
@@ -334,7 +334,7 @@
               
               <td>  <div class="card-body">
                         <h5 class="card-title">Why is my computer making strange noises?</h5>
-                        <a href="#" class="btn btn-primary">Solution</a>
+                        <p href="#" class="btn-primary">Solution</p>
                         <p class="card-text"> A lot of strange noises is normally a sign of hardware failure or a noisy fan. Hardware normally makes strange 
                                               noises right before they fail, so you should back-up any information before it does fail.</p>
                     </div>
@@ -347,7 +347,7 @@
               <td>
                 <div class="card-body">
                   <h5 class="card-title">Why won’t my computer start?</h5>
-                  <a href="#" class="btn btn-primary">Solution</a>
+                  <p href="#" class="btn-primary">Solution</p>
                   <p class="card-text">  A computer that suddenly turns off or has trouble turning on properly, the power supply might be failing. Check if the computer is plugged into the power supply properly and if that doesn’t work,
                                          try using other working devices to see if the power supply is adequate or not.</p>
                </div>
@@ -356,7 +356,7 @@
             <td>
               <div class="card-body">
                 <h5 class="card-title">Why is my screen blank when my computer is on?</h5>
-                <a href="#" class="btn btn-primary">Solution</a>
+                <p href="#" class="btn-primary">Solution</p>
                 <p class="card-text">   If the screen is blank, there might be an issue with the connection from the computer to the monitor. Check if the 
                                         monitor is plugged into a power supply and the connection between the computer and the monitor.</p>
              </div>
@@ -373,7 +373,7 @@
               <td>
                 <div class="card-body">
                   <h5 class="card-title">My screen is frozen, what do I do?</h5>
-                  <a href="#" class="btn btn-primary">Solution</a>
+                  <p href="#" class="btn-primary">Solution</p>
                   <p class="card-text">   If your computer is frozen, you will have to restart your computer and risk losing any unsaved documents and data. Freezing can be a sign of insufficient memory on the computer or corrupted or missing files or even malware or viruses. Press and hold the power button
                                           to turn your computer off and reboot it and get to work cleaning up the system to stop the computer freezing again in the future.</p>
                </div>
